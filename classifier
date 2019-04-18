@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if python3 ./test_news.py $1
+ then exit 0 # Real
+ else exit 1 # Fake
+fi
